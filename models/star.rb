@@ -26,4 +26,9 @@ class Star
     @id = result['id'].to_i
   end
 
+  def self.delete_all()
+    sql = "DELETE FROM stars"
+    SqlRunner.run(sql)
+  end
+
 end
