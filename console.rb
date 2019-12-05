@@ -18,6 +18,10 @@ movie1 = Movie.new({'title' => 'KFC the Colonel stikes back',
   })
 movie1.save
 
+casting1 = Casting.new({'movie_id' => movie1.id, 'star_id' => star1.id, 'fee' =>
+  100000000})
+  casting1.save
+
 
 binding.pry
 nil
