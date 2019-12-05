@@ -3,3 +3,12 @@ require_relative('models/star')
 require_relative('models/movie')
 
 require( 'pry' )
+
+star1 = Star.new({'first_name' => 'Frank',
+  'last_name' => 'Chicken'
+  })
+  star1.save
+
+
+  binding.pry
+  nil
