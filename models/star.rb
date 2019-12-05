@@ -11,4 +11,6 @@ class Star
    @last_name = options['last_name']
  end
 
+
+
 end
